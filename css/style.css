@@ -163,12 +163,13 @@ input {
     animation: aside 9s ease infinite;
 
     /*Estilos*/
+    top: 0px;
     display: flex;
     flex-direction: column;
-    position: fixed;
+    position: sticky;
     color: white;
-    margin: 0px;
-    height: 100%;
+    margin: 100vh 0px 0px 0px ;
+    height: 100vh;
     width: 12vw;
     z-index: 2;
 }
@@ -190,10 +191,11 @@ input {
     letter-spacing: -4px;
 }
 .titlePortifolio {
-    position: relative;
+    position: absolute;
+    top: 0; 
     font-family: "Coolvetica", Geneva, Tahoma, sans-serif;
     font-size: 24vw;
-    margin: 0px 0px 0px 11vw;
+    margin: 0px 0px 0px 0px;
     height: 100vh;
     letter-spacing: -5px;
 
@@ -210,6 +212,10 @@ input {
 }
 .article>p {
     color: white;
+}
+
+#article1 {
+    top: -12vw;
 }
 
 
