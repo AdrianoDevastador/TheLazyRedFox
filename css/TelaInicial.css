@@ -1,0 +1,184 @@
+/**
+*┌──────────────────┬─────PDR Sheets─────┐
+*|    ____    css   | "Piratas do Raio   |
+*|   |____          | is so brazilian"   |
+*|   |  ___  \ /    | yeah b*tch, it is! |
+*|   | | \ | / \    |                    |
+*|   ‾‾‾‾‾‾‾‾‾‾‾‾   | ARE YOU OFFENDED BY|THIS????? TELL TO ME YOUR B-
+*└──────────────────┴────────────────────┘
+*/
+
+
+/*Fontes*/
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('../fonts/coolvetica\ rg.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Atkinson Hyperlegible';
+    src: url('../fonts/AtkinsonHyperlegible-Regular.ttf');
+}
+/*configurações gerais do documento*/
+
+:root {
+    --cor-primaria: #FFCD00;
+    --cor-secundaria: #FF9900;
+    --cor-terciaria: #FF5000;
+    --cor-fundo: #9F5321;
+    --cor-fundo-escuro: #3E5641;
+    --cor-fundo-muito-escuro: #282B28;
+}
+
+
+/*seletores abrangentes*/
+html {
+    background: black;
+    font-family: 'Atkinson Hyperlegible', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    text-align: center;
+    margin: 0px;
+}
+
+.fox {
+    transition: padding none;
+    margin: auto;
+    user-select: none;
+    width: fit-content;
+    padding: 15px;
+    transition: .5s ease;
+}
+
+h1 {
+    font-family: 'Coolvetica', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    color: black;
+    margin: auto;
+    margin-bottom: 3px;
+    background: var(--cor-primaria);
+    text-align: center;
+    border: var(--cor-secundaria);
+    padding:5px;
+    box-shadow: 0px 5px var(--cor-terciaria);
+    background-image: radial-gradient(circle, var(--cor-primaria), var(--cor-secundaria));
+}
+
+.descricaodapagina {
+    text-align: center;
+    color: white;
+    margin: 50px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.fichacontainer {
+    box-shadow: -21px -21px;
+    background-color: linear-gradient(var(--cor-fundo-escuro), black);
+    user-select: none;
+    width: 52vw;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 15px;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.fichacontainer>section {
+    height: 250px;
+    flex: 1;
+    color: white;   
+    background-color: var(--cor-quase-preto);
+    margin: 10px;
+    min-width: 200px;
+    max-width: 206.5px;
+}
+
+.jogador {
+    color: black;
+    margin: auto;
+    text-align: center;
+    background-color: var(--cor-primaria);
+
+}
+
+.imagem {
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid var(--cor-terciaria);
+    width: 150px;
+    height: 150px;
+    transition: .5s ease;
+    opacity: 1;
+    z-index: 5;
+}
+
+div {
+    margin: 0px;
+    align-content: center;
+    font-size: 14px;
+    text-align: center;
+    opacity: 1;
+    top: -90px;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+
+.imagem {
+    position: relative;
+    opacity: 1;
+}
+.nome {
+    text-align: center;
+    padding: 5px;
+    position: relative; 
+    margin: auto;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    background-color: var(--cor-terciaria);
+    transition: .5s ease;
+    z-index: 4;
+    left: 1px;
+}
+
+/*Configurações do hover*/
+
+
+section:hover{
+    max-width: 216.5px;
+    height: 260px;
+    font-size: calc(100% + 4px);
+    margin: 0px 5px 10px 5px;
+    transition: 60ms;
+}
+
+.container-imagem .imagem:hover {
+    opacity: 0.3;
+}
+.container-imagem:hover .nome {
+    opacity: 1;
+}
+/**/
+
+section:active {
+    height: 250px;
+    flex: 1;
+    color: white;   
+    background-color: var(--cor-quase-preto);
+    margin: 10px;
+    min-width: 200px;
+    max-width: 206.5px;
+    transition: 30ms;
+}
+
+/*footer*/
+
+.fox:hover {
+    background-color: white;
+    transition: 1s ease-out;
+}
+
+/*mom, look, i can be nationalist too!*/
