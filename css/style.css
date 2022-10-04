@@ -17,8 +17,20 @@
 }
 
 html {
-    scrollbar-color: #ffcd00 #3E5641;
     scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 30px;
+}
+::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+::-webkit-scrollbar-thumb:hover {    
+    background-color: #9f5321;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ff9900
 }
 
 body {
@@ -27,7 +39,7 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: 'Atkinson Hyperlegible', sans-serif;
-    background: linear-gradient(90deg, #000000 60%,#282b28);
+    background: linear-gradient(90deg, #000000 0%, #282b28 80%);
     background-attachment: fixed;
 }
 
@@ -74,9 +86,13 @@ body {
 
 img {
     box-shadow: 0px 20px 40px #3E5641;
-    max-width: 100%;
+    max-width: 30vw;
     margin: 15px;
     background-color: #ffcd00;
+    transition: 200ms;
+}
+img:hover {
+    box-shadow: 0px 20px 40px #ffcd00;
 }
 
 /*links*/
@@ -90,9 +106,6 @@ a:link {
     border: 20px;
     width: 12vw;
     height: 1.5vw;
-}
-.aside>a:before {
-    content: "> "
 }
 .aside>a {
     color: inherit;
@@ -113,7 +126,7 @@ a:link {
     z-index: 5;
 }
 a:hover:before {
-    content: "";
+    content: none;
     border-left: 25px;
     border-top: 25px;
     border-bottom: 25px;
@@ -178,19 +191,20 @@ input {
 
 .article {
     margin: 0px 0px 0px 12vw;
-    max-width: 40%;
     text-align: justify;
     color: white;
     padding: 100px;
     background: 0
 }
 .article>h2 {
+    max-width: 40%;
     color: #ffcd00;
     text-align: left;
     font-size: 70px;
     letter-spacing: -4px;
 }
 .titlePortifolio {
+    width: 100%;
     position: absolute;
     top: 0; 
     font-family: "Coolvetica", Geneva, Tahoma, sans-serif;
@@ -211,11 +225,13 @@ input {
     height: 500px;
 }
 .article>p {
+    max-width: 40%;
     color: white;
 }
 
 #article1 {
-    top: -12vw;
+    position: relative;
+    margin-top: -100vh;
 }
 
 
