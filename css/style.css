@@ -12,14 +12,14 @@
 /*Tags abrangentes (gerais)*/
 
 @font-face {
-    font-family: "Coolvetica", sans-serif;
+    font-family: Coolvetica;
     src: url('../css/fonts/CoolveticaRg-Regular.eot');
     src: url('../css/fonts/CoolveticaRg-Regular.eot?#iefix') format('embedded-opentype'),
     url('../css/fonts/coolveticarg-webfont.woff') format('woff'),
     url('../css/fonts/coolveticaRg.ttf') format('truetype'),
 }
 @font-face {
-    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-family: "Atkinson Hyperlegible";
     src: url('../css/fonts/AtkinsonHyperlegible-Regular.eot');
     src: url('../css/fonts/AtkinsonHyperlegible-Regular.eot?#iefix') format('embedded-opentype'),
     url('../css/fonts/atkinsonhyperlegible-regular-webfont.woff') format('woff'),
@@ -27,6 +27,7 @@
  }
 
 html {
+    font-family: "Atkinson Hyperlegible";
     scroll-behavior: auto;
 }
 
