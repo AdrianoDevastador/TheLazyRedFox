@@ -13,17 +13,17 @@
 
 @font-face {
     font-family: Coolvetica;
-    src: url('./css/fonts/CoolveticaRg-Regular.eot');
-    src: url('./css/fonts/CoolveticaRg-Regular.eot?#iefix') format('embedded-opentype'),
-    url('./css/fonts/coolveticarg-webfont.woff') format('woff'),
-    url('./css/fonts/coolveticaRg.ttf') format('truetype'),
+    src: url('./fonts/CoolveticaRg-Regular.eot');
+    src: url('./fonts/CoolveticaRg-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/coolveticarg-webfont.woff') format('woff'),
+    url('./fonts/coolveticaRg.ttf') format('truetype'),
 }
 @font-face {
     font-family: "Atkinson Hyperlegible";
-    src: url('./css/fonts/AtkinsonHyperlegible-Regular.eot');
-    src: url('./css/fonts/AtkinsonHyperlegible-Regular.eot?#iefix') format('embedded-opentype'),
-    url('./css/fonts/atkinsonhyperlegible-regular-webfont.woff') format('woff'),
-    url('./css/fonts/AtkinsonHyperlegible-Regular.ttf') format('truetype'),
+    src: url('./fonts/AtkinsonHyperlegible-Regular.eot');
+    src: url('./fonts/AtkinsonHyperlegible-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/atkinsonhyperlegible-regular-webfont.woff') format('woff'),
+    url('./fonts/AtkinsonHyperlegible-Regular.ttf') format('truetype'),
  }
 
 html {
