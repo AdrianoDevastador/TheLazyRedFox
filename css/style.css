@@ -13,11 +13,11 @@
 
 @font-face {
     font-family: "Coolvetica", sans-serif;
-    src: url("../TheLazyRedFox/coolveticaRg.ttf");
+    src: url("../../TheLazyRedFox/coolveticaRg.ttf");
 }
 @font-face {
     font-family: "Atkinson Hyperlegible", sans-serif;
-    src: url("../TheLazyRedFox/AtkinsonHyperlegible-Regular.ttf");
+    src: url("../../TheLazyRedFox/AtkinsonHyperlegible-Regular.ttf");
 }
 
 html {
