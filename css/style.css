@@ -13,11 +13,11 @@
 
 @font-face {
     font-family: "Coolvetica", sans-serif;
-    src: url("/coolveticaRg.ttf");
+    src: url("/TheLazyRedFox/coolveticaRg.ttf");
 }
 @font-face {
     font-family: "Atkinson Hyperlegible", sans-serif;
-    src: url("/AtkinsonHyperlegible-Regular.ttf");
+    src: url("/TheLazyRedFox/AtkinsonHyperlegible-Regular.ttf");
 }
 
 html {
@@ -307,13 +307,14 @@ input {
 
 @media screen and (max-width: 768px) {
     .titlePortifolio {
-        height: 100%;
+        height: 120%;
     }
     .aside {
         height: 15vw;
         width: 100%;
         text-align: center;
         flex-direction: row;
+        margin-top: 20%;
     }
     .article{
         font-size: 12vw;
