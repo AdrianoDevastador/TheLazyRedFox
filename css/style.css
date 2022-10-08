@@ -13,11 +13,11 @@
 
 @font-face {
     font-family: "Coolvetica", sans-serif;
-    src: url("../fonts/coolvetica rg.ttf");
+    src: url("../coolveticaRg.ttf");
 }
 @font-face {
     font-family: "Atkinson Hyperlegible", sans-serif;
-    src: url("../fonts/AtkinsonHyperlegible-Regular.ttf");
+    src: url("../AtkinsonHyperlegible-Regular.ttf");
 }
 
 html {
@@ -142,7 +142,7 @@ img:hover {
     background-color: #282b28;
     color: #ffcd00;
     padding-left: 30px;
-    z-index: 5;
+    z-index: 100;
 }
 .asideLink:hover:before {
     content: none;
@@ -159,7 +159,7 @@ img:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    z-index: 2;
+    z-index: 3;
     margin-top: 70vh;
     margin-left: 92vw;
     font-size: 1.5vw;
@@ -222,7 +222,7 @@ input {
     margin: 0px;
     height: 100vh;
     width: 12vw;
-    z-index: 2;
+    z-index: 5;
 }
 
 /*articles*/
@@ -306,6 +306,9 @@ input {
 /*media query e responsividade*/
 
 @media screen and (max-width: 768px) {
+    .titlePortifolio {
+        height: 100%;
+    }
     .aside {
         height: 15vw;
         width: 100%;
@@ -330,9 +333,10 @@ input {
     }
     img:hover{
         max-width: 120%;
-        z-index: 0;
+        z-index: 4;
     }
     img {
+        z-index: 3;
         height: 100%;
     }
     .profilePic{
