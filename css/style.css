@@ -321,7 +321,7 @@ input {
         width: 100%;
         text-align: center;
         flex-direction: row;
-        margin-top: 20%;
+        margin-top: 16vh;
     }
     .article{
         font-size: 12vw;
