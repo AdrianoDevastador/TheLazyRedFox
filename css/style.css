@@ -13,11 +13,18 @@
 
 @font-face {
     font-family: "Coolvetica", sans-serif;
-    src: url("../../TheLazyRedFox/coolveticaRg.ttf");
+    src: url('/fonts/CoolveticaRg-Regular.eot');
+    src: url('/fonts/CoolveticaRg-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/coolveticarg-webfont.woff') format('woff'),
+    url('/fonts/coolveticaRg.ttf') format('truetype'),
 }
 @font-face {
     font-family: "Atkinson Hyperlegible", sans-serif;
-    src: url("../../TheLazyRedFox/AtkinsonHyperlegible-Regular.ttf");
+    src: url('/fonts/AtkinsonHyperlegible-Regular.eot');
+    src: url('/fonts/AtkinsonHyperlegible-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/atkinsonhyperlegible-regular-webfont.woff') format('woff'),
+    url('/fonts/AtkinsonHyperlegible-Regular.ttf') format('truetype'),
+        }
 }
 
 html {
