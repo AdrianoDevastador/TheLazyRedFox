@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: "Coolvetica", sans-serif;
-    src: url("../fonts/coolvetica\ rg.ttf");
+    src: url("../fonts/coolvetica rg.ttf");
 }
 @font-face {
     font-family: "Atkinson Hyperlegible", sans-serif;
@@ -117,11 +117,11 @@ img:hover {
 .asideLink:link {
     position: relative;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.3vw;
     padding: 20px;
     font-weight: bold;
     border: 20px;
-    width: 12vw;
+    width: auto;
     height: 1.5vw;
 }
 .asideLink {
@@ -130,10 +130,12 @@ img:hover {
     transition: 50ms, font-size 0s;
 }
 .asideLink:hover {
+    width: 12vw;
     overflow: hidden;
     font-size: 3vw;
     display: inline-block;
-    letter-spacing: -4px;
+    letter-spacing: -0.3vw;
+    word-spacing: 1vw;
 
     max-width: 12vw;
     max-height: 1.5vw;
@@ -169,7 +171,7 @@ img:hover {
 .socialMedia>a {
     margin: 1vh;
     color: #000000;
-    background-image: linear-gradient(#ffcb00 30%, #FF5000 70% );
+    background-image: linear-gradient(#ffcb00 40%, #FF5000 70% );
     background-attachment: fixed;
     text-decoration: none;
     padding: 5px;
@@ -304,24 +306,82 @@ input {
 /*media query e responsividade*/
 
 @media screen and (max-width: 768px) {
-    .article,
     .aside {
-        max-width: none;
-        width: -webkit-fill-available;
-        height: 30vh;
-    }
-    .asideLink{
-        width: auto;
+        height: 15vw;
+        width: 100%;
+        text-align: center;
+        flex-direction: row;
     }
     .article{
+        font-size: 12vw;
         margin: 0px;
         padding: 10vw;
-        max-width: none;
+        width: 73%;
     }
     #article1{
-    margin-top: 30vh;
+        margin-top: 0vh;
     }
     .spacer{
         height: 5vw;
+    }
+
+    .imageContainer{
+        height: auto;
+    }
+    img:hover{
+        max-width: 120%;
+        z-index: 0;
+    }
+    img {
+        height: 100%;
+    }
+    .profilePic{
+        height: 15vw;
+        width: 15vw;
+        flex: none;
+    }
+    .profilePic>h2 {
+    /*Ajuste de espaçamento da fonte*/
+        left: -1vw;
+        margin: 0px;
+        font-size: 12.4vw;
+        letter-spacing: -1.4vw;
+        
+        line-height: 7.9vw;
+        width: 16vw;
+    }
+
+    .socialMedia {
+        height: 40vh;
+        margin-top: 60vh;
+        margin-left: auto;
+        font-size: 3vh;
+        justify-content: flex-end;
+    }
+
+    .asideLink:link {
+        font-size: 3.5vw;
+        width: auto;
+        height: auto;
+        align-content: stretch;
+    }   
+    .asideLink:hover {
+        line-height: 27vw;
+        padding: 0px;
+        min-height: 15vw;
+        font-size: 8vw;
+        min-width: 24vw;
+        letter-spacing: normal;
+    }
+    .asideLink:active {
+        border: none;
+    }
+    .asideLink:hover {
+        max-width: none;
+        max-height: 3.5vw;
+        padding-left: 0%;
+    }
+    .asideLink{
+        flex-grow: 1;
     }
 }
