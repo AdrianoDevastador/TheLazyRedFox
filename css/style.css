@@ -13,17 +13,17 @@
 
 @font-face {
     font-family: Coolvetica;
-    src: url('./css/fonts/CoolveticaRg-Regular.eot');
-    src: url('./css/fonts/CoolveticaRg-Regular.eot?#iefix') format('embedded-opentype'),
-    url('./css/fonts/coolveticarg-webfont.woff') format('woff'),
-    url('./css/fonts/coolveticaRg.ttf') format('truetype'),
+    src: url('https://adrianodevastador.github.io/TheLazyRedFox/css/fonts/CoolveticaRg-Regular.eot');
+    src: url('https://adrianodevastador.github.io/TheLazyRedFox/css/fonts/CoolveticaRg-Regular.eot?#iefix') format('embedded-opentype'),
+    url('https://adrianodevastador.github.io/TheLazyRedFox/css/fonts/coolveticarg-webfont.woff') format('woff'),
+    url('https://adrianodevastador.github.io/TheLazyRedFox/css/fonts/coolveticaRg.ttf') format('truetype'),
 }
 @font-face {
     font-family: "Atkinson Hyperlegible";
-    src: url('./css/fonts/AtkinsonHyperlegible-Regular.eot');
-    src: url('./css/fonts/AtkinsonHyperlegible-Regular.eot?#iefix') format('embedded-opentype'),
-    url('./css/fonts/atkinsonhyperlegible-regular-webfont.woff') format('woff'),
-    url('./css/fonts/AtkinsonHyperlegible-Regular.ttf') format('truetype'),
+    src: url('https://adrianodevastador.github.io/TheLazyRedFox/css/fonts/AtkinsonHyperlegible-Regular.eot');
+    src: url('https://adrianodevastador.github.io/TheLazyRedFox/css/fonts/AtkinsonHyperlegible-Regular.eot?#iefix') format('embedded-opentype'),
+    url('https://adrianodevastador.github.io/TheLazyRedFox/css/fonts/atkinsonhyperlegible-regular-webfont.woff') format('woff'),
+    url('https://adrianodevastador.github.io/TheLazyRedFox/css/fonts/AtkinsonHyperlegible-Regular.ttf') format('truetype'),
  }
 
 html {
