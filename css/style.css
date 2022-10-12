@@ -66,13 +66,12 @@ body {
 
 .profilePic>h2 {
     /*Ajuste de espaçamento da fonte*/
-    left: -1vw;
+    left: -0.5vw;
     margin: 0px;
-    font-size: 10.5vw;
+    font-size: 10.1vw;
     letter-spacing: -1.4vw;
-    
     align-items: flex-end;
-    line-height: 6.8vw;
+    line-height: 6.5vw;
     width: 13vw;
     color: #000000;
     position: absolute;
@@ -232,19 +231,18 @@ input {
     color: #ffcd00;
     text-align: left;
     font-size: 70px;
-    letter-spacing: -4px;
-    line-height: 60%;
+    letter-spacing: -3px;
+    line-height: 65%;
 }
 .titlePortifolio {
     width: 100%;
     position: absolute;
-    top: 0; 
+    top: 0;
     font-family: Poppins, Geneva, Tahoma, sans-serif;
-    font-size: 24vw;
+    font-size: 20vw;
     margin: 0px 0px 0px 0px;
     height: 100vh;
-    letter-spacing: -5px;
-
+    letter-spacing: -1.1vw;
     color: #000000;
     background-image: url(../img/foxwalpapersimples.png);
     background-attachment: fixed;
