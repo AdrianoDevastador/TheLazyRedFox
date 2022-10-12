@@ -10,21 +10,9 @@
 
 
 /*Tags abrangentes (gerais)*/
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-@font-face {
-    font-family: Coolvetica;
-    src: url('https://adrianodevastador.github.io/TheLazyRedFox/css/fonts/CoolveticaRg-Regular.eot');
-    src: url('https://adrianodevastador.github.io/TheLazyRedFox/css/fonts/CoolveticaRg-Regular.eot?#iefix') format('embedded-opentype'),
-    url('https://adrianodevastador.github.io/TheLazyRedFox/css/fonts/coolveticarg-webfont.woff') format('woff'),
-    url('https://adrianodevastador.github.io/TheLazyRedFox/css/fonts/coolveticaRg.ttf') format('truetype'),
-}
-@font-face {
-    font-family: "Atkinson Hyperlegible";
-    src: url('https://adrianodevastador.github.io/TheLazyRedFox/css/fonts/AtkinsonHyperlegible-Regular.eot');
-    src: url('https://adrianodevastador.github.io/TheLazyRedFox/css/fonts/AtkinsonHyperlegible-Regular.eot?#iefix') format('embedded-opentype'),
-    url('https://adrianodevastador.github.io/TheLazyRedFox/css/fonts/atkinsonhyperlegible-regular-webfont.woff') format('woff'),
-    url('https://adrianodevastador.github.io/TheLazyRedFox/css/fonts/AtkinsonHyperlegible-Regular.ttf') format('truetype'),
- }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 
 html {
     font-family: "Atkinson Hyperlegible", Helvetica, sans-serif;
@@ -251,7 +239,7 @@ input {
     width: 100%;
     position: absolute;
     top: 0; 
-    font-family: Coolvetica, Geneva, Tahoma, sans-serif;
+    font-family: Poppins, Geneva, Tahoma, sans-serif;
     font-size: 24vw;
     margin: 0px 0px 0px 0px;
     height: 100vh;
